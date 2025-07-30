@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Users/zishen/Desktop/gray/gray/gray/build/Release/cmake_install.cmake",
+		"D:/Users/zishen/Desktop/gray/gray/gray/build/Release/cmake/stm32cubemx/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
