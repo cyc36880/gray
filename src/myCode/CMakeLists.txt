@@ -12,6 +12,10 @@ set(Application_Src
     ${CMAKE_CURRENT_SOURCE_DIR}/src/myMath.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/flash.c
     ${CMAKE_CURRENT_SOURCE_DIR}/src/sys_config_and_flash.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/register.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/binary.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/color.c
+    ${CMAKE_CURRENT_SOURCE_DIR}/src/gray.c
 )
 
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE ${Include_Dirs})

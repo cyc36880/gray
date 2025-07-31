@@ -25,5 +25,6 @@ JLinkLog.txt
 *.sct
 *.map
 *.hex
+build/
 #*.bin
 

@@ -73,3 +73,5 @@ add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD
   COMMAND ${CMAKE_OBJCOPY} -O ihex   $<TARGET_FILE:${PROJECT_NAME}> ${PROJECT_NAME}.hex
   COMMENT "Generating .bin and .hex files"
 )
+# 设置编译选项
+target_compile_options(${PROJECT_NAME} PRIVATE -w)

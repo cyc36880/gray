@@ -22,6 +22,16 @@
 
 /* USER CODE BEGIN 0 */
 #include "myCode/myMain.h"
+#include "myCode/inc/sys_config_and_flash.h"
+
+static const uint8_t I2C_SLAVEADDRESS_OTHER1[] = {
+    0x71,
+    0x72,
+    0x73,
+    0x74,
+};
+
+
 /* USER CODE END 0 */
 
 I2C_HandleTypeDef hi2c1;
@@ -137,6 +147,24 @@ void i2c_init(uint8_t sec_adddr)
   {
     Error_Handler();
   }
+}
+
+void MAX_I2C_addr_other_changle(void)
+{
+    uint8_t i2c_slaveaddr_pos = 0;
+    get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
+    if (++i2c_slaveaddr_pos >= sizeof(I2C_SLAVEADDRESS_OTHER1)/sizeof(I2C_SLAVEADDRESS_OTHER1[0]))
+        i2c_slaveaddr_pos = 0;
+    set_sys_config_info(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos, 1);
+    sync_sys_config_info();
+    MAX_I2C_Init();
+}
+
+uint8_t MAX_I2C_addr_get_other(void)
+{
+    uint8_t i2c_slaveaddr_pos = 0;
+    get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
+    return i2c_slaveaddr_pos;
 }
 
 /* USER CODE END 1 */
