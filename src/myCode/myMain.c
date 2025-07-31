@@ -1,5 +1,11 @@
 #include "myMain.h"
 
+#include "tim.h"
+#include "adc.h"
+
+#include "./inc/sys_config_and_flash.h"
+
+
 typedef void (*key_func_cb)(void);
 
 typedef enum
@@ -83,8 +89,19 @@ static void key_on_long_cb(void)
 
 void setup(void)
 {
+    HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_1);
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_2);
+	HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+
+	HAL_ADCEx_Calibration_Start(&hadc1);						// 校准
+	HAL_ADC_Start_DMA(&hadc1, (uint32_t *)adcVal, SENSORE_NUM); // 开启adc
+
+    sys_config_info_init(); // 系统配置信息初始化
+
     key_info.on_click = key_on_click_cb;    
     key_info.on_long = key_on_long_cb;
+
+    
 }
 
 void loop(void)

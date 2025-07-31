@@ -116,4 +116,51 @@ void HAL_UART_MspDeInit(UART_HandleTypeDef* uartHandle)
 
 /* USER CODE BEGIN 1 */
 
+/********************************************************/
+/* ****************** prinft ************************** */
+/********************************************************/
+
+#ifdef __GNUC__
+    /* With GCC/RAISONANCE, small printf (option LD Linker->Libraries->Small printf
+    set to 'Yes') calls __io_putchar() */
+    #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
+#else
+    #define PUTCHAR_PROTOTYPE int fputc(int ch, FILE *f)
+#endif /* __GNUC__ */
+
+PUTCHAR_PROTOTYPE
+{
+    while((USART1->SR&0X40)==0);//等待上一次串口数据发送完成  
+	USART1->DR = (uint8_t) ch;      	//写DR,串口1将发送数据
+	return ch;
+
+    return ch;
+}
+
+size_t __write(int handle, const unsigned char * buffer, size_t size)
+{
+    size_t nChars = 0;
+
+    if (buffer == 0)
+    {
+        /*
+         * This means that we should flush internal buffers.  Since we
+         * don't we just return.  (Remember, "handle" == -1 means that all
+         * handles should be flushed.)
+         */
+        return 0;
+    }
+
+
+    for (/* Empty */; size != 0; --size)
+    {
+        while((USART1->SR&0X40)==0);//等待上一次串口数据发送完成  
+	      USART1->DR = *buffer;      	//写DR,串口1将发送数据
+        ++buffer;
+        ++nChars;
+    }
+
+    return nChars;
+}
+
 /* USER CODE END 1 */

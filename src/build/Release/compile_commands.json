@@ -79,6 +79,30 @@
 },
 {
   "directory": "D:/Desktop/gray_perf/gray/src/build/Release",
+  "command": "D:\\msys64\\mingw64\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -o CMakeFiles\\gray.dir\\myCode\\src\\light.c.obj -c D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\light.c",
+  "file": "D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\light.c",
+  "output": "CMakeFiles\\gray.dir\\myCode\\src\\light.c.obj"
+},
+{
+  "directory": "D:/Desktop/gray_perf/gray/src/build/Release",
+  "command": "D:\\msys64\\mingw64\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -o CMakeFiles\\gray.dir\\myCode\\src\\myMath.c.obj -c D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\myMath.c",
+  "file": "D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\myMath.c",
+  "output": "CMakeFiles\\gray.dir\\myCode\\src\\myMath.c.obj"
+},
+{
+  "directory": "D:/Desktop/gray_perf/gray/src/build/Release",
+  "command": "D:\\msys64\\mingw64\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -o CMakeFiles\\gray.dir\\myCode\\src\\flash.c.obj -c D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\flash.c",
+  "file": "D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\flash.c",
+  "output": "CMakeFiles\\gray.dir\\myCode\\src\\flash.c.obj"
+},
+{
+  "directory": "D:/Desktop/gray_perf/gray/src/build/Release",
+  "command": "D:\\msys64\\mingw64\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -o CMakeFiles\\gray.dir\\myCode\\src\\sys_config_and_flash.c.obj -c D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\sys_config_and_flash.c",
+  "file": "D:\\Desktop\\gray_perf\\gray\\src\\myCode\\src\\sys_config_and_flash.c",
+  "output": "CMakeFiles\\gray.dir\\myCode\\src\\sys_config_and_flash.c.obj"
+},
+{
+  "directory": "D:/Desktop/gray_perf/gray/src/build/Release",
   "command": "D:\\msys64\\mingw64\\bin\\arm-none-eabi-gcc.exe -DSTM32F103xB -DUSE_HAL_DRIVER -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include  -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -o cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Core\\Src\\system_stm32f1xx.c.obj -c D:\\Desktop\\gray_perf\\gray\\src\\Core\\Src\\system_stm32f1xx.c",
   "file": "D:\\Desktop\\gray_perf\\gray\\src\\Core\\Src\\system_stm32f1xx.c",
   "output": "cmake\\stm32cubemx\\CMakeFiles\\STM32_Drivers.dir\\__\\__\\Core\\Src\\system_stm32f1xx.c.obj"

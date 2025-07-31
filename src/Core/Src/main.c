@@ -86,7 +86,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+#if 0
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -97,6 +97,15 @@ int main(void)
   MX_TIM1_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
+#endif 
+  MX_GPIO_Init();
+  MX_DMA_Init();
+  MX_ADC1_Init();
+  // MX_I2C1_Init();
+  MX_TIM1_Init();
+  MX_USART1_UART_Init();
+
+
   setup();
   /* USER CODE END 2 */
 

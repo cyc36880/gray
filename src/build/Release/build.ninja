@@ -166,6 +166,42 @@ build CMakeFiles/gray.dir/myCode/myMain.c.obj: C_COMPILER__gray_unscanned_Releas
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode
 
+build CMakeFiles/gray.dir/myCode/src/light.c.obj: C_COMPILER__gray_unscanned_Release D$:/Desktop/gray_perf/gray/src/myCode/src/light.c || cmake_object_order_depends_target_gray
+  CONFIG = Release
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\gray.dir\myCode\src\light.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\gray.dir
+  OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
+
+build CMakeFiles/gray.dir/myCode/src/myMath.c.obj: C_COMPILER__gray_unscanned_Release D$:/Desktop/gray_perf/gray/src/myCode/src/myMath.c || cmake_object_order_depends_target_gray
+  CONFIG = Release
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\gray.dir\myCode\src\myMath.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\gray.dir
+  OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
+
+build CMakeFiles/gray.dir/myCode/src/flash.c.obj: C_COMPILER__gray_unscanned_Release D$:/Desktop/gray_perf/gray/src/myCode/src/flash.c || cmake_object_order_depends_target_gray
+  CONFIG = Release
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\gray.dir\myCode\src\flash.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\gray.dir
+  OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
+
+build CMakeFiles/gray.dir/myCode/src/sys_config_and_flash.c.obj: C_COMPILER__gray_unscanned_Release D$:/Desktop/gray_perf/gray/src/myCode/src/sys_config_and_flash.c || cmake_object_order_depends_target_gray
+  CONFIG = Release
+  DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
+  DEP_FILE = CMakeFiles\gray.dir\myCode\src\sys_config_and_flash.c.obj.d
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Desktop/gray_perf/gray/src/myCode -ID:/Desktop/gray_perf/gray/src -ID:/Desktop/gray_perf/gray/src/Core/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include
+  OBJECT_DIR = CMakeFiles\gray.dir
+  OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target gray
@@ -174,7 +210,7 @@ build CMakeFiles/gray.dir/myCode/myMain.c.obj: C_COMPILER__gray_unscanned_Releas
 #############################################
 # Link the executable gray.elf
 
-build gray.elf: C_EXECUTABLE_LINKER__gray_Release cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/gray.dir/Core/Src/main.c.obj CMakeFiles/gray.dir/Core/Src/gpio.c.obj CMakeFiles/gray.dir/Core/Src/adc.c.obj CMakeFiles/gray.dir/Core/Src/dma.c.obj CMakeFiles/gray.dir/Core/Src/i2c.c.obj CMakeFiles/gray.dir/Core/Src/tim.c.obj CMakeFiles/gray.dir/Core/Src/usart.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/gray.dir/Core/Src/sysmem.c.obj CMakeFiles/gray.dir/Core/Src/syscalls.c.obj CMakeFiles/gray.dir/startup_stm32f103xb.s.obj CMakeFiles/gray.dir/myCode/myMain.c.obj || cmake/stm32cubemx/STM32_Drivers
+build gray.elf: C_EXECUTABLE_LINKER__gray_Release cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/gray.dir/Core/Src/main.c.obj CMakeFiles/gray.dir/Core/Src/gpio.c.obj CMakeFiles/gray.dir/Core/Src/adc.c.obj CMakeFiles/gray.dir/Core/Src/dma.c.obj CMakeFiles/gray.dir/Core/Src/i2c.c.obj CMakeFiles/gray.dir/Core/Src/tim.c.obj CMakeFiles/gray.dir/Core/Src/usart.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/gray.dir/Core/Src/sysmem.c.obj CMakeFiles/gray.dir/Core/Src/syscalls.c.obj CMakeFiles/gray.dir/startup_stm32f103xb.s.obj CMakeFiles/gray.dir/myCode/myMain.c.obj CMakeFiles/gray.dir/myCode/src/light.c.obj CMakeFiles/gray.dir/myCode/src/myMath.c.obj CMakeFiles/gray.dir/myCode/src/flash.c.obj CMakeFiles/gray.dir/myCode/src/sys_config_and_flash.c.obj || cmake/stm32cubemx/STM32_Drivers
   CONFIG = Release
   FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0
   OBJECT_DIR = CMakeFiles\gray.dir

@@ -47,7 +47,7 @@
 			{
 				"command" : 2,
 				"file" : 2,
-				"line" : 13,
+				"line" : 17,
 				"parent" : 4
 			},
 			{
@@ -65,7 +65,7 @@
 			{
 				"command" : 3,
 				"file" : 2,
-				"line" : 14,
+				"line" : 18,
 				"parent" : 4
 			}
 		]
@@ -143,7 +143,11 @@
 				8,
 				9,
 				10,
-				12
+				12,
+				13,
+				14,
+				15,
+				16
 			]
 		},
 		{
@@ -245,7 +249,11 @@
 				8,
 				9,
 				10,
-				12
+				12,
+				13,
+				14,
+				15,
+				16
 			]
 		},
 		{
@@ -259,10 +267,6 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				13,
-				14,
-				15,
-				16,
 				17,
 				18,
 				19,
@@ -276,7 +280,11 @@
 				27,
 				28,
 				29,
-				30
+				30,
+				31,
+				32,
+				33,
+				34
 			]
 		}
 	],
@@ -358,6 +366,30 @@
 			"backtrace" : 8,
 			"compileGroupIndex" : 0,
 			"path" : "myCode/myMain.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "myCode/src/light.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "myCode/src/myMath.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "myCode/src/flash.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "myCode/src/sys_config_and_flash.c",
 			"sourceGroupIndex" : 0
 		},
 		{
