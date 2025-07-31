@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						2
 					],
 					"jsonFile" : "directory-.-Release-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -36,6 +37,17 @@
 					[
 						0
 					]
+				},
+				{
+					"build" : "myCode",
+					"jsonFile" : "directory-myCode-Release-3a4f8ac3cbbfda60e572.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "myCode"
 				}
 			],
 			"name" : "Release",
@@ -45,7 +57,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "gray",
 					"targetIndexes" : 
@@ -60,14 +73,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Release-bde9fc3fb28210496252.json",
+					"jsonFile" : "target-STM32_Drivers-Release-c6b6c6632c50f44902b1.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "gray::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-gray-Release-ecb4289bef35f2bbbc9b.json",
+					"jsonFile" : "target-gray-Release-038194597f5cb7f9bf6d.json",
 					"name" : "gray",
 					"projectIndex" : 0
 				}
@@ -77,8 +90,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Users/zishen/Desktop/gray/gray/gray/build/Release",
-		"source" : "D:/Users/zishen/Desktop/gray/gray/gray"
+		"build" : "D:/Desktop/gray_perf/gray/src/build/Release",
+		"source" : "D:/Desktop/gray_perf/gray/src"
 	},
 	"version" : 
 	{

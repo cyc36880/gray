@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Users/zishen/Desktop/gray/gray/gray/build/Release"
+			"value" : "d:/Desktop/gray_perf/gray/src/build/Release"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Users/zishen/Desktop/gray/gray/gray/build/Release/CMakeFiles/pkgRedirects"
+			"value" : "D:/Desktop/gray_perf/gray/src/build/Release/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -683,7 +683,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Users/zishen/Desktop/gray/gray/gray"
+			"value" : "D:/Desktop/gray_perf/gray/src"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "3"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -1175,7 +1175,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "D:/Users/zishen/Desktop/gray/gray/gray/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "D:/Desktop/gray_perf/gray/src/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1203,7 +1203,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Users/zishen/Desktop/gray/gray/gray/build/Release"
+			"value" : "D:/Desktop/gray_perf/gray/src/build/Release"
 		},
 		{
 			"name" : "gray_IS_TOP_LEVEL",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Users/zishen/Desktop/gray/gray/gray"
+			"value" : "D:/Desktop/gray_perf/gray/src"
 		}
 	],
 	"kind" : "cache",

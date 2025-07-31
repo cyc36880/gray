@@ -158,13 +158,16 @@
 		},
 		{
 			"path" : "cmake/stm32cubemx/CMakeLists.txt"
+		},
+		{
+			"path" : "myCode/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Users/zishen/Desktop/gray/gray/gray/build/Release",
-		"source" : "D:/Users/zishen/Desktop/gray/gray/gray"
+		"build" : "D:/Desktop/gray_perf/gray/src/build/Release",
+		"source" : "D:/Desktop/gray_perf/gray/src"
 	},
 	"version" : 
 	{

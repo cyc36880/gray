@@ -12,12 +12,14 @@
 		[
 			"add_executable",
 			"target_link_libraries",
+			"target_include_directories",
 			"target_sources"
 		],
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"cmake/stm32cubemx/CMakeLists.txt"
+			"cmake/stm32cubemx/CMakeLists.txt",
+			"myCode/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -40,10 +42,31 @@
 				"parent" : 2
 			},
 			{
+				"file" : 2
+			},
+			{
 				"command" : 2,
+				"file" : 2,
+				"line" : 13,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
 				"file" : 1,
 				"line" : 83,
 				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 14,
+				"parent" : 4
 			}
 		]
 	},
@@ -70,24 +93,32 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Core/Inc"
+					"backtrace" : 5,
+					"path" : "D:/Desktop/gray_perf/gray/src/myCode"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Desktop/gray_perf/gray/src"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/Desktop/gray_perf/gray/src/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
@@ -111,7 +142,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -135,24 +167,32 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Core/Inc"
+					"backtrace" : 5,
+					"path" : "D:/Desktop/gray_perf/gray/src/myCode"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/Desktop/gray_perf/gray/src"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/Desktop/gray_perf/gray/src/Core/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 3,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "ASM",
@@ -204,7 +244,8 @@
 				7,
 				8,
 				9,
-				10
+				10,
+				12
 			]
 		},
 		{
@@ -218,7 +259,6 @@
 			"name" : "Object Libraries",
 			"sourceIndexes" : 
 			[
-				12,
 				13,
 				14,
 				15,
@@ -235,83 +275,90 @@
 				26,
 				27,
 				28,
-				29
+				29,
+				30
 			]
 		}
 	],
 	"sources" : 
 	[
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/main.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/gpio.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/adc.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/dma.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/i2c.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/tim.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/usart.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/stm32f1xx_it.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/stm32f1xx_hal_msp.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/sysmem.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Core/Src/syscalls.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 4,
+			"backtrace" : 7,
 			"compileGroupIndex" : 1,
 			"path" : "startup_stm32f103xb.s",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 8,
+			"compileGroupIndex" : 0,
+			"path" : "myCode/myMain.c",
+			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 3,

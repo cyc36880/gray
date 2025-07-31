@@ -35,7 +35,7 @@ rule C_COMPILER__gray_unscanned_Release
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__gray_Release
-  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && D:\msys64\mingw64\bin\arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m3  -T "D:/Users/zishen/Desktop/gray/gray/gray/STM32F103XX_FLASH.ld" --specs=nano.specs -Wl,-Map=gray.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && D:\msys64\mingw64\bin\arm-none-eabi-gcc.exe $FLAGS -mcpu=cortex-m3  -T "D:/Desktop/gray_perf/gray/src/STM32F103XX_FLASH.ld" --specs=nano.specs -Wl,-Map=gray.map -Wl,--gc-sections -Wl,--start-group -lc -lm -Wl,--end-group -Wl,--print-memory-usage $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -62,7 +62,7 @@ rule C_COMPILER__STM32_Drivers_unscanned_Release
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = D:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SD:\Users\zishen\Desktop\gray\gray\gray -BD:\Users\zishen\Desktop\gray\gray\gray\build\Release
+  command = D:\msys64\mingw64\bin\cmake.exe --regenerate-during-build -SD:\Desktop\gray_perf\gray\src -BD:\Desktop\gray_perf\gray\src\build\Release
   description = Re-running CMake...
   generator = 1
 

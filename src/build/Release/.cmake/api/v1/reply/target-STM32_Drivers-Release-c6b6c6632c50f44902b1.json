@@ -118,23 +118,23 @@
 			[
 				{
 					"backtrace" : 2,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Core/Inc"
+					"path" : "D:/Desktop/gray_perf/gray/src/Core/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "D:/Users/zishen/Desktop/gray/gray/gray/Drivers/CMSIS/Include"
+					"path" : "D:/Desktop/gray_perf/gray/src/Drivers/CMSIS/Include"
 				}
 			],
 			"language" : "C",
