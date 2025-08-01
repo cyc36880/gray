@@ -4,7 +4,7 @@
 #define MemoryBank FLASH_BANK_1
 #define MemoryPage 63
 
-#define FLASH_BUFFER_SIZE 200
+#define FLASH_BUFFER_SIZE 500
 #define FLASH_START_ADDR  MemoryAddr
 
 

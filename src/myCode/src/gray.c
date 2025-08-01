@@ -4,14 +4,11 @@
 #include "../inc/light.h"
 #include "../inc/sys_config_and_flash.h"
 
-Grayscale_Port Grayscale_Port_param[SENSORE_NUM] = {
-    // {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0},
-};
-
+static Grayscale_Port Grayscale_Port_param[SENSORE_NUM] = {0};
 static int32_t Grayscale[SENSORE_NUM] = {0};
+
 // 识别后的n路灰度值
 uint8_t grayVal[SENSORE_NUM] = {0};
-
 
 void Grayscale_Init(void)
 {
@@ -22,7 +19,7 @@ void Grayscale_Init(void)
         Grayscale_Port_param[i].MedianVal = 2047;
         Grayscale_Port_param[i].zoom = 1.0;
     }
-    // get_sys_config_data(SYSCONF_MEM_LIST_GRAY_PARAM, Grayscale_Port_param);
+    get_sys_config_data(SYSCONF_MEM_LIST_GRAY_PARAM, Grayscale_Port_param);
 }
 
 //  写灰度学习的值
@@ -30,9 +27,9 @@ static void update_Grayscale_flashdata(void)
 {
     Grayscale_Port Grayscale_param[SENSORE_NUM];
 
-    // memcpy(Grayscale_param, Grayscale_Port_param, sizeof(Grayscale_Port));
-    // set_sys_config_info(SYSCONF_MEM_LIST_GRAY_PARAM, Grayscale_param, SENSORE_NUM*sizeof(Grayscale_Port));
-    // sync_sys_config_info();
+    memcpy(Grayscale_param, Grayscale_Port_param, sizeof(Grayscale_Port));
+    set_sys_config_info(SYSCONF_MEM_LIST_GRAY_PARAM, Grayscale_param, SENSORE_NUM*sizeof(Grayscale_Port));
+    sync_sys_config_info();
 }
 
 

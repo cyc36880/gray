@@ -35,18 +35,30 @@
  */
 #include "../inc/sys_config_and_flash.h"
 #include "../inc/flash.h"
+#include "../inc/color.h"
+#include "../inc/gray.h"
 
 static const char sys_verify_version[] = "0.0.1";
 // 验证密钥
 static const uint32_t sys_verify_key = 0x5E5A6A6A;
 
 static uint8_t i2c_slaveaddr_pos = 0;
-
+static Grayscale_Port Grayscale_Port_param[SENSORE_NUM] = {
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+    {.maxVal=4095, .minVal=0, .MedianVal=2047, .zoom=1.0, },
+};
+static color_table_t color_tab[COLOR_STUDY_NUM] = {0};
 
 static sys_config_info_t config_info_table[] = {
     {sizeof(sys_verify_version)-1,  20,                           (void *)sys_verify_version,   1}, // 验证版本
     {sizeof(uint32_t),              sizeof(uint32_t),             (void *)&sys_verify_key,      1}, // 验证密钥
     {sizeof(i2c_slaveaddr_pos),     sizeof(i2c_slaveaddr_pos),    (void *)&i2c_slaveaddr_pos,   0}, // 第二iic地址
+    {sizeof(Grayscale_Port_param),  sizeof(Grayscale_Port_param), (void *)Grayscale_Port_param, 0}, // 灰度传感器参数
+    {sizeof(color_tab),             sizeof(color_tab),            (void *)color_tab,            0},  // 颜色表
 };
 
 static int16_t flash_init(void)

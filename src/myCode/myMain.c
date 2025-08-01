@@ -98,8 +98,7 @@ void setup(void)
 
     Grayscale_Init();
     binary_init();
-    // color_init();
-    // color2_init();
+    color_init();
 
     iic_read_reg.reg = iic_read_reg_idle_val;
     iic_read_reg.size = 2;
@@ -129,8 +128,8 @@ void loop(void)
     }
     else if (MACHINE_COLOR_IDENTIFY == machine_state) // 颜色识别
     {
-        // color2_identify();
-        iic_read_reg.reg = color2Val;
+        color_identify();
+        iic_read_reg.reg = colorVal;
         iic_read_reg.size = SENSORE_NUM;
     }
     else if (MACHINE_GRAY_STUDY == machine_state) // 灰度学习
@@ -151,7 +150,7 @@ void loop(void)
     {
         iic_read_reg.reg = iic_read_reg_idle_val;
         iic_read_reg.size = 2;
-        // clear_color2_study();
+        clear_color_study();
         machine_state = MACHINE_IDLE;
     }
     // 颜色学习
@@ -159,7 +158,7 @@ void loop(void)
     {
         iic_read_reg.reg = iic_read_reg_study_val;
         iic_read_reg.size = 2;
-        // color2_study(machine_state - MACHINE_COLOR_RED_STUDY);
+        color_study(machine_state - MACHINE_COLOR_RED_STUDY);
         machine_state = MACHINE_COLOR_IDENTIFY;
     }
 
