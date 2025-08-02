@@ -8,7 +8,8 @@ extern "C" {
 
 #include "main.h"
 
-#define SENSORE_NUM    6   //传感器路数
+#define SENSORE_NUM    6                 //传感器路数
+#define REGISTER_NUM   (SENSORE_NUM+1)   //状态寄存器，位于最后一位
 
 #define IDENTIFY_THRESHOLD (170) //灰度识别阈值
 #define SERVER_ADDRESS     0x70  //从机主地址

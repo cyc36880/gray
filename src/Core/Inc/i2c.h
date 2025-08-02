@@ -42,6 +42,7 @@ void MX_I2C1_Init(void);
 
 /* USER CODE BEGIN Prototypes */
 void i2c_init(uint8_t sec_adddr);
+void MAX_I2C_addr_other_changle(void);
 /* USER CODE END Prototypes */
 
 #ifdef __cplusplus

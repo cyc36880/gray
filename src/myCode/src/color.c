@@ -23,7 +23,7 @@ static color_table_t color_tab[SENSORE_NUM][COLOR_STUDY_NUM] = {0};
 static lv_color_hsv_t sort_buf[SENSORE_NUM][SORT_SIZE] = {0};
 static lv_color_hsv_t median[SENSORE_NUM][SORT_SIZE] = {0};
 static color_diff_t color_diff[SENSORE_NUM] = {0};
-uint8_t colorVal[SENSORE_NUM] = {0};
+uint8_t colorVal[REGISTER_NUM] = {0};
 
 static void color_hsv_sort_h(lv_color_hsv_t *hsv_buf, uint8_t len)
 {

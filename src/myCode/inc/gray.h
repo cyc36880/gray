@@ -17,7 +17,7 @@ typedef struct
 }Grayscale_Port;
 
 
-extern uint8_t grayVal[SENSORE_NUM];
+extern uint8_t grayVal[REGISTER_NUM];
 
 void Grayscale_Init(void);
 void gary_study(void);

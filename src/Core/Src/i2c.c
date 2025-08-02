@@ -151,20 +151,55 @@ void i2c_init(uint8_t sec_adddr)
 
 void MAX_I2C_addr_other_changle(void)
 {
-    uint8_t i2c_slaveaddr_pos = 0;
-    get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
-    if (++i2c_slaveaddr_pos >= sizeof(I2C_SLAVEADDRESS_OTHER1)/sizeof(I2C_SLAVEADDRESS_OTHER1[0]))
-        i2c_slaveaddr_pos = 0;
-    set_sys_config_info(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos, 1);
-    sync_sys_config_info();
-    MAX_I2C_Init();
+  uint8_t i2c_slaveaddr_pos = 0;
+  get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
+  if (++i2c_slaveaddr_pos >= sizeof(I2C_SLAVEADDRESS_OTHER1)/sizeof(I2C_SLAVEADDRESS_OTHER1[0]))
+      i2c_slaveaddr_pos = 0;
+  set_sys_config_info(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos, 1);
+  sync_sys_config_info();
+  // MAX_I2C_Init();
 }
 
 uint8_t MAX_I2C_addr_get_other(void)
 {
-    uint8_t i2c_slaveaddr_pos = 0;
-    get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
-    return i2c_slaveaddr_pos;
+  uint8_t i2c_slaveaddr_pos = 0;
+  get_sys_config_data(SYSCONF_MEM_LIST_I2C_ADDR_OTHER_POS, &i2c_slaveaddr_pos);
+  return i2c_slaveaddr_pos;
+}
+
+// ========================================================
+// ========================================================
+
+//I2C引脚强制拉高，释放总线
+static void I2C_Slave_Forced_UP()
+{
+	GPIO_InitTypeDef GPIO_InitStruct = {0};
+	__HAL_RCC_GPIOB_CLK_ENABLE();
+//	PB8     ------> I2C1_SCL
+//	PB9     ------> I2C1_SDA
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8|GPIO_PIN_9, GPIO_PIN_SET);
+	GPIO_InitStruct.Pin = GPIO_PIN_8|GPIO_PIN_9;
+	GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+	GPIO_InitStruct.Pull = GPIO_NOPULL;
+	GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+	HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_8|GPIO_PIN_9, GPIO_PIN_SET);
+}
+
+
+/**
+ * @description: iic意外，重新初始化iic
+ * @return {*}
+ */
+void I2C_Slave_Rest(void)//初始化I2C从机接收态
+{
+	HAL_I2C_DeInit(&hi2c1);		// 注销I2C
+	HAL_I2C_MspDeInit(&hi2c1);	// 注销引脚
+	I2C_Slave_Forced_UP(); // I2C引脚强制拉高，释放总线
+
+	MX_I2C1_Init(); //重新初始化iic
+	
+	HAL_I2C_EnableListen_IT(&hi2c1);
 }
 
 /* USER CODE END 1 */

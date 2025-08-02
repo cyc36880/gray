@@ -35,8 +35,12 @@ typedef struct
 static void key_event_handling(void);
 static void other_addr_light_color(void);
 
-static uint8_t iic_read_reg_idle_val[2] = {0, 1};
-static uint8_t iic_read_reg_study_val[2] = {0, 2};
+static uint8_t iic_read_reg_idle_val[REGISTER_NUM] = {
+    [SENSORE_NUM]=1,
+};
+static uint8_t iic_read_reg_study_val[REGISTER_NUM] = {
+    [SENSORE_NUM]=2,
+};
 static uint32_t adcVal[SENSORE_NUM];
 
 static KET_Typedef key_info = {KEY_IDLE};
@@ -78,7 +82,7 @@ static void key_on_click_cb(void)
 
 static void key_on_long_cb(void)
 {
-    // MAX_I2C_addr_other_changle();
+    MAX_I2C_addr_other_changle();
     other_addr_light_color();
 }
 
@@ -112,44 +116,44 @@ void loop(void)
     {
         set_rgb_brightness(0, 0, 0);
         iic_read_reg.reg = iic_read_reg_idle_val;
-        iic_read_reg.size = 2;
+        iic_read_reg.size = REGISTER_NUM;
     }
     else if (MACHINE_GRAY_IDENTIFY == machine_state) // 灰度识别
     {
         gary_identify();
         iic_read_reg.reg = grayVal;
-        iic_read_reg.size = SENSORE_NUM;
+        iic_read_reg.size = REGISTER_NUM;
     }
     else if (MACHINE_BINARY_IDENTIFY == machine_state) // 二值识别
     {
         binary_identify();
         iic_read_reg.reg = binaryVal;
-        iic_read_reg.size = SENSORE_NUM;
+        iic_read_reg.size = REGISTER_NUM;
     }
     else if (MACHINE_COLOR_IDENTIFY == machine_state) // 颜色识别
     {
         color_identify();
         iic_read_reg.reg = colorVal;
-        iic_read_reg.size = SENSORE_NUM;
+        iic_read_reg.size = REGISTER_NUM;
     }
     else if (MACHINE_GRAY_STUDY == machine_state) // 灰度学习
     {
         iic_read_reg.reg = iic_read_reg_study_val;
-        iic_read_reg.size = 2;
+        iic_read_reg.size = REGISTER_NUM;
         gary_study();
         machine_state = MACHINE_GRAY_IDENTIFY;
     }
     else if (MACHINE_BINARY_STUDY == machine_state) // 二值学习
     {
         iic_read_reg.reg = iic_read_reg_study_val;
-        iic_read_reg.size = 2;
+        iic_read_reg.size = REGISTER_NUM;
         binary_study();
         machine_state = MACHINE_BINARY_IDENTIFY;
     }
     else if (MACHINE_COLOR_CLEAR_STUDY == machine_state) // 清除颜色学习
     {
         iic_read_reg.reg = iic_read_reg_idle_val;
-        iic_read_reg.size = 2;
+        iic_read_reg.size = REGISTER_NUM;
         clear_color_study();
         machine_state = MACHINE_IDLE;
     }
@@ -157,7 +161,7 @@ void loop(void)
     else if (MACHINE_COLOR_RED_STUDY <= machine_state && machine_state <= MACHINE_COLOR_WHITE_STUDY)
     {
         iic_read_reg.reg = iic_read_reg_study_val;
-        iic_read_reg.size = 2;
+        iic_read_reg.size = REGISTER_NUM;
         color_study(machine_state - MACHINE_COLOR_RED_STUDY);
         machine_state = MACHINE_COLOR_IDENTIFY;
     }
@@ -192,7 +196,7 @@ static void other_addr_light_color(void)
     set_address_rgb(other_addr_color_ptr[0], other_addr_color_ptr[1], other_addr_color_ptr[2]);
 }
 
-// ======== KEY ========
+// ======== KEY 状态机 ========
 static void key_event_handling(void)
 {
     uint8_t key_press = HAL_GPIO_ReadPin(SW_GPIO_Port, SW_Pin);

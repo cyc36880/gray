@@ -53,8 +53,8 @@ build CMakeFiles/gray.dir/Core/Src/main.c.obj: C_COMPILER__gray_unscanned_Releas
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\main.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -62,8 +62,8 @@ build CMakeFiles/gray.dir/Core/Src/gpio.c.obj: C_COMPILER__gray_unscanned_Releas
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -71,8 +71,8 @@ build CMakeFiles/gray.dir/Core/Src/adc.c.obj: C_COMPILER__gray_unscanned_Release
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\adc.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -80,8 +80,8 @@ build CMakeFiles/gray.dir/Core/Src/dma.c.obj: C_COMPILER__gray_unscanned_Release
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\dma.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -89,8 +89,8 @@ build CMakeFiles/gray.dir/Core/Src/i2c.c.obj: C_COMPILER__gray_unscanned_Release
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\i2c.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -98,8 +98,8 @@ build CMakeFiles/gray.dir/Core/Src/tim.c.obj: C_COMPILER__gray_unscanned_Release
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\tim.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -107,8 +107,8 @@ build CMakeFiles/gray.dir/Core/Src/usart.c.obj: C_COMPILER__gray_unscanned_Relea
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\usart.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -116,8 +116,8 @@ build CMakeFiles/gray.dir/Core/Src/stm32f1xx_it.c.obj: C_COMPILER__gray_unscanne
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\stm32f1xx_it.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -125,8 +125,8 @@ build CMakeFiles/gray.dir/Core/Src/stm32f1xx_hal_msp.c.obj: C_COMPILER__gray_uns
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\stm32f1xx_hal_msp.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -134,8 +134,8 @@ build CMakeFiles/gray.dir/Core/Src/sysmem.c.obj: C_COMPILER__gray_unscanned_Rele
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\sysmem.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -143,8 +143,8 @@ build CMakeFiles/gray.dir/Core/Src/syscalls.c.obj: C_COMPILER__gray_unscanned_Re
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\Core\Src\syscalls.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\Core\Src
 
@@ -152,8 +152,8 @@ build CMakeFiles/gray.dir/startup_stm32f103xb.s.obj: ASM_COMPILER__gray_unscanne
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\startup_stm32f103xb.s.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -x assembler-with-cpp -MMD -MP -O3 -DNDEBUG -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -x assembler-with-cpp -MMD -MP -O3 -DNDEBUG -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir
 
@@ -161,8 +161,8 @@ build CMakeFiles/gray.dir/myCode/myMain.c.obj: C_COMPILER__gray_unscanned_Releas
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\myMain.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode
 
@@ -170,8 +170,8 @@ build CMakeFiles/gray.dir/myCode/src/light.c.obj: C_COMPILER__gray_unscanned_Rel
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\light.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -179,8 +179,8 @@ build CMakeFiles/gray.dir/myCode/src/myMath.c.obj: C_COMPILER__gray_unscanned_Re
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\myMath.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -188,8 +188,8 @@ build CMakeFiles/gray.dir/myCode/src/flash.c.obj: C_COMPILER__gray_unscanned_Rel
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\flash.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -197,8 +197,8 @@ build CMakeFiles/gray.dir/myCode/src/sys_config_and_flash.c.obj: C_COMPILER__gra
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\sys_config_and_flash.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -206,8 +206,8 @@ build CMakeFiles/gray.dir/myCode/src/register.c.obj: C_COMPILER__gray_unscanned_
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\register.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -215,8 +215,8 @@ build CMakeFiles/gray.dir/myCode/src/binary.c.obj: C_COMPILER__gray_unscanned_Re
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\binary.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -224,8 +224,8 @@ build CMakeFiles/gray.dir/myCode/src/color.c.obj: C_COMPILER__gray_unscanned_Rel
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\color.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -233,8 +233,8 @@ build CMakeFiles/gray.dir/myCode/src/gray.c.obj: C_COMPILER__gray_unscanned_Rele
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = CMakeFiles\gray.dir\myCode\src\gray.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11 -w
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/myCode -ID:/Users/zishen/Desktop/gray/gray/src -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles\gray.dir
   OBJECT_FILE_DIR = CMakeFiles\gray.dir\myCode\src
 
@@ -248,7 +248,7 @@ build CMakeFiles/gray.dir/myCode/src/gray.c.obj: C_COMPILER__gray_unscanned_Rele
 
 build gray.elf: C_EXECUTABLE_LINKER__gray_Release cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32f1xx.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_adc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj CMakeFiles/gray.dir/Core/Src/main.c.obj CMakeFiles/gray.dir/Core/Src/gpio.c.obj CMakeFiles/gray.dir/Core/Src/adc.c.obj CMakeFiles/gray.dir/Core/Src/dma.c.obj CMakeFiles/gray.dir/Core/Src/i2c.c.obj CMakeFiles/gray.dir/Core/Src/tim.c.obj CMakeFiles/gray.dir/Core/Src/usart.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_it.c.obj CMakeFiles/gray.dir/Core/Src/stm32f1xx_hal_msp.c.obj CMakeFiles/gray.dir/Core/Src/sysmem.c.obj CMakeFiles/gray.dir/Core/Src/syscalls.c.obj CMakeFiles/gray.dir/startup_stm32f103xb.s.obj CMakeFiles/gray.dir/myCode/myMain.c.obj CMakeFiles/gray.dir/myCode/src/light.c.obj CMakeFiles/gray.dir/myCode/src/myMath.c.obj CMakeFiles/gray.dir/myCode/src/flash.c.obj CMakeFiles/gray.dir/myCode/src/sys_config_and_flash.c.obj CMakeFiles/gray.dir/myCode/src/register.c.obj CMakeFiles/gray.dir/myCode/src/binary.c.obj CMakeFiles/gray.dir/myCode/src/color.c.obj CMakeFiles/gray.dir/myCode/src/gray.c.obj || cmake/stm32cubemx/STM32_Drivers
   CONFIG = Release
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0
   OBJECT_DIR = CMakeFiles\gray.dir
   POST_BUILD = C:\Windows\system32\cmd.exe /C "cd /D D:\Users\zishen\Desktop\gray\gray\src\build\Release && arm-none-eabi-objcopy -O binary D:/Users/zishen/Desktop/gray/gray/src/build/Release/gray.elf gray.bin && arm-none-eabi-objcopy -O ihex D:/Users/zishen/Desktop/gray/gray/src/build/Release/gray.elf gray.hex"
   PRE_LINK = cd .
@@ -296,8 +296,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src\system_stm32f1xx.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Core\Src
 
@@ -305,8 +305,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -314,8 +314,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -323,8 +323,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_adc_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -332,8 +332,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -341,8 +341,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -350,8 +350,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -359,8 +359,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -368,8 +368,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -377,8 +377,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -386,8 +386,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -395,8 +395,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -404,8 +404,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -413,8 +413,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -422,8 +422,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_i2c.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -431,8 +431,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -440,8 +440,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 
@@ -449,8 +449,8 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32F1xx_HAL
   CONFIG = Release
   DEFINES = -DSTM32F103xB -DUSE_HAL_DRIVER
   DEP_FILE = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj.d
-  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
-  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/Drivers/CMSIS/Include
+  FLAGS = -mcpu=cortex-m3  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -Os -g0 -std=gnu11
+  INCLUDES = -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Core/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F1xx/Include -ID:/Users/zishen/Desktop/gray/gray/src/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake\stm32cubemx\CMakeFiles\STM32_Drivers.dir\__\__\Drivers\STM32F1xx_HAL_Driver\Src
 

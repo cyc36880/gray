@@ -8,7 +8,7 @@ extern "C" {
 
 #include "../myMain.h"
 
-extern uint8_t binaryVal[SENSORE_NUM];
+extern uint8_t binaryVal[REGISTER_NUM];
 
 void binary_init(void);
 void binary_study(void);

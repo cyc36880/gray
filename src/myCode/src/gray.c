@@ -8,7 +8,7 @@ static Grayscale_Port Grayscale_Port_param[SENSORE_NUM] = {0};
 static int32_t Grayscale[SENSORE_NUM] = {0};
 
 // 识别后的n路灰度值
-uint8_t grayVal[SENSORE_NUM] = {0};
+uint8_t grayVal[REGISTER_NUM] = {0};
 
 void Grayscale_Init(void)
 {

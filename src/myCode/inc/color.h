@@ -26,7 +26,7 @@ typedef struct
 } color_table_t;
 
 
-extern uint8_t colorVal[SENSORE_NUM];
+extern uint8_t colorVal[REGISTER_NUM];
 
 void color_init(void);
 void color_study(uint8_t color);

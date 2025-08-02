@@ -2,7 +2,7 @@
 
 #include "../inc/gray.h"
 
-uint8_t binaryVal[SENSORE_NUM] = {0};
+uint8_t binaryVal[REGISTER_NUM] = {0};
 
 void binary_init(void)
 {

@@ -59,22 +59,22 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define SW_Pin GPIO_PIN_6
 #define SW_GPIO_Port GPIOA
-#define LED_1_Pin GPIO_PIN_7
-#define LED_1_GPIO_Port GPIOA
-#define LED_2_Pin GPIO_PIN_0
-#define LED_2_GPIO_Port GPIOB
-#define LED_3_Pin GPIO_PIN_1
-#define LED_3_GPIO_Port GPIOB
-#define LED_4_Pin GPIO_PIN_10
-#define LED_4_GPIO_Port GPIOB
-#define LED_5_Pin GPIO_PIN_11
-#define LED_5_GPIO_Port GPIOB
-#define LED_6_Pin GPIO_PIN_12
-#define LED_6_GPIO_Port GPIOB
-#define LED_B_Pin GPIO_PIN_13
+#define LED1_Pin GPIO_PIN_7
+#define LED1_GPIO_Port GPIOA
+#define LED2_Pin GPIO_PIN_0
+#define LED2_GPIO_Port GPIOB
+#define LED3_Pin GPIO_PIN_1
+#define LED3_GPIO_Port GPIOB
+#define LED4_Pin GPIO_PIN_10
+#define LED4_GPIO_Port GPIOB
+#define LED5_Pin GPIO_PIN_11
+#define LED5_GPIO_Port GPIOB
+#define LED6_Pin GPIO_PIN_12
+#define LED6_GPIO_Port GPIOB
+#define LED_G_Pin GPIO_PIN_13
+#define LED_G_GPIO_Port GPIOB
+#define LED_B_Pin GPIO_PIN_14
 #define LED_B_GPIO_Port GPIOB
-#define LED_BB14_Pin GPIO_PIN_14
-#define LED_BB14_GPIO_Port GPIOB
 #define LED_R_Pin GPIO_PIN_15
 #define LED_R_GPIO_Port GPIOB
 
